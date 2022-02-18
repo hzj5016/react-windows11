@@ -1,0 +1,9 @@
+.taskbar {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 39px;
+  background-color: rgba(254, 254, 254, 0.7);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
