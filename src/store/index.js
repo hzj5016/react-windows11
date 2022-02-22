@@ -9,7 +9,10 @@ const useStore = create(set => ({
   },
 
   // taskbar
-  taskApps
+  taskbar: {
+    apps: taskApps,
+    align: 'center'
+  }
 }))
 
 export default useStore
